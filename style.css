@@ -91,11 +91,45 @@
     justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
   
   .bottom-container ul li {
     list-style: none;
   }
+
+  /* products */
+  .products-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .products {
+    width: 280px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .products p {
+    text-align: center;
+  }
+
+  .products button {
+    width: 80%;
+    padding-block: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #21f121;
+  }
+
   
   
   
